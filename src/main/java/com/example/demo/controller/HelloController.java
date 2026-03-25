@@ -10,4 +10,8 @@ public class HelloController {
     public String hello() {
         return "Hello from AWS 🚀";
     }
+    @GetMapping("/check")
+public String check() {
+	return "Check jerkins from AWS 🚀";
+}
 }
