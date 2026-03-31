@@ -15,7 +15,7 @@ public String check() {
 	return "Check jerkins from AWS 🚀";
 }
 	    @GetMapping("/test")
-    public String hello() {
+    public String test() {
         return "triggering test from github";
     }
 }
