@@ -16,6 +16,6 @@ public String check() {
 }
 	    @GetMapping("/test")
     public String test() {
-        return "triggering test from github";
+        return "triggering..................";
     }
 }
