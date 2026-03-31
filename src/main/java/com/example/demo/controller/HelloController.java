@@ -12,7 +12,7 @@ public class HelloController {
     }
     @GetMapping("/check")
 public String check() {
-	return "Check jerkins from AWS 🚀";
+	return "Check jerkins from AWS by srikar 🚀";
 }
 	    @GetMapping("/test")
     public String test() {
