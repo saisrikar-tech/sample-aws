@@ -14,4 +14,8 @@ public class HelloController {
 public String check() {
 	return "Check jerkins from AWS 🚀";
 }
+	    @GetMapping("/test")
+    public String hello() {
+        return "triggering test from github";
+    }
 }
